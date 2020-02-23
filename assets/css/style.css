@@ -1,0 +1,63 @@
+.container {
+    text-align: center;
+    background-color: black;
+}
+
+.jumbotron {
+    background: green;
+    color: #bc2e1e;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#instructions-h2 {
+    text-decoration: underline;
+}
+
+#instructions {
+    color: #FFFFFF;
+    font-style: normal;
+    font-variant: normal;
+    background: gray;
+}
+
+#rdmNmbr {
+    border: 4px color: #1A10E8;
+    background: #B21212;
+}
+
+#WandL {
+    border: 4px color: #1A10E8;
+    background: #B21212;
+}
+
+.img-thumbnail {
+    border: 0px;
+    background: none;
+}
+
+#scoreText {
+    border: 4px color:white;
+    background: black;
+}
+
+#winner1 {
+    color: whitesmoke;
+}
+
+#winner2 {
+    color: white;
+}
+
+#lose1 {
+    color: white;
+}
+
+#lose2 {
+    color: whitesmoke;
+}
+
+#white {
+    color: white;
+}
