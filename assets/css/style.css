@@ -1,63 +1,64 @@
-.container {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/geo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.header {
+    font-family: 'Balsamiq Sans', cursive;
     text-align: center;
-    background-color: black;
+    font-size: 32px;
 }
 
-.jumbotron {
-    background: green;
-    color: #bc2e1e;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.crystalContainer {
+    width: 80%;
+    margin: auto;
 }
 
-#instructions-h2 {
+.crystals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crystal {
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/crystal3.png");
+    background-size: cover;
+    background-position: right center;
+}
+
+.crystal:hover {
+    cursor: grabbing;
+    transform: translate(5px, 10px)
+}
+
+.paragraph {
+    font-family: 'Balsamiq Sans', cursive;
     text-decoration: underline;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 0.5px 0.5px black;
+    line-height: 8px;
+    color: black;
 }
 
-#instructions {
-    color: #FFFFFF;
-    font-style: normal;
-    font-variant: normal;
-    background: gray;
+.scoreContainer, .winsLossesContainer {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 34px;
+    width: 50%;
+    float: left;
+    text-align: center;
 }
 
-#rdmNmbr {
-    border: 4px color: #1A10E8;
-    background: #B21212;
-}
-
-#WandL {
-    border: 4px color: #1A10E8;
-    background: #B21212;
-}
-
-.img-thumbnail {
-    border: 0px;
-    background: none;
-}
-
-#scoreText {
-    border: 4px color:white;
-    background: black;
-}
-
-#winner1 {
-    color: whitesmoke;
-}
-
-#winner2 {
-    color: white;
-}
-
-#lose1 {
-    color: white;
-}
-
-#lose2 {
-    color: whitesmoke;
-}
-
-#white {
-    color: white;
+#result {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 34px;
 }
